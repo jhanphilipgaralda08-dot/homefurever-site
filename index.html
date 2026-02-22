@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home Furever | Nagpayong Stray Animal Protection & Adoption</title>
+  <meta name="description" content="Community-driven initiative protecting stray animals in Nagpayong, Pasig. Rescue, care, rehabilitate, and find furever homes."/>
+  <style>
+    :root {
+      --primary: #4CAF50;      /* green for hope/care */
+      --accent: #FF9800;       /* warm orange */
+      --dark: #333;
+      --light: #f9f9f9;
+      --gray: #666;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      line-height: 1.6;
+      color: var(--dark);
+      background: var(--light);
+    }
+    header {
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&q=80') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 120px 20px 80px;
+    }
+    header h1 { font-size: 3.2rem; margin-bottom: 0.5rem; }
+    header p { font-size: 1.4rem; max-width: 700px; margin: 0 auto 2rem; }
+    .btn {
+      display: inline-block;
+      background: var(--accent);
+      color: white;
+      padding: 14px 32px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 10px;
+      transition: 0.3s;
+    }
+    .btn:hover { background: #e68900; transform: translateY(-3px); }
+    section { padding: 80px 20px; max-width: 1100px; margin: auto; }
+    h2 { text-align: center; font-size: 2.8rem; margin-bottom: 1.5rem; color: var(--primary); }
+    .mission { background: white; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); padding: 40px; }
+    .stats { text-align: center; font-size: 1.3rem; margin: 2rem 0; color: var(--gray); }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin: 3rem 0;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+      transition: transform 0.3s;
+    }
+    .gallery img:hover { transform: scale(1.05); }
+    .cta { text-align: center; background: var(--primary); color: white; padding: 60px 20px; border-radius: 16px; margin: 40px auto; }
+    footer {
+      background: var(--dark);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    @media (max-width: 768px) {
+      header h1 { font-size: 2.5rem; }
+      h2 { font-size: 2.2rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Home Furever</h1>
+    <p>Protecting & Giving Stray Animals in Nagpayong a Second Chance at a Loving Home</p>
+    <a href="#about" class="btn">Learn Our Mission</a>
+    <a href="#contact" class="btn">Get Involved Today</a>
+  </header>
+
+  <section id="about">
+    <h2>About Home Furever</h2>
+    <div class="mission">
+      <p><strong>Home Furever</strong> is a community-driven initiative dedicated to protecting vulnerable stray animals in the Nagpayong community, Pasig City.</p>
+      <p>In many urban areas across the Philippines — and right here in our neighborhoods — stray animals endure a daily cycle of hunger, disease, neglect, cruelty, and danger with little to no intervention.</p>
+      <p class="stats">This reflects a national crisis: According to reports from the Philippine Animal Welfare Society (PAWS) and other sources (2024–2025), over 12–13 million stray cats and dogs struggle to survive on Philippine streets, left without food, shelter, or care.</p>
+      <p>Our goal: Give every rescued animal medical attention, love, rehabilitation, and — most importantly — the chance to find a **permanent, loving Home FurEver** through adoption.</p>
+      <p>We foster care, responsibility, and community involvement so no animal suffers harm to their health, well-being, or safety. We treat every four-legged resident with the dignity they deserve.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Why It Matters</h2>
+    <p style="text-align:center; max-width:800px; margin:0 auto 2rem;">By rescuing, treating, and rehoming strays locally, we break the cycle of overpopulation and suffering — one furbaby at a time. Join us in building a kinder community for animals and people alike.</p>
+    
+    <div class="gallery">
+      <!-- Replace these src with your own photos of rescued animals, shelter, adoptions -->
+      <img src="https://paws.org.ph/wp-content/uploads/2022/12/Support-PAWS-e1672378143925.jpg" alt="Rescued dog resting safely" loading="lazy"/>
+      <img src="https://paws.org.ph/wp-content/uploads/2022/06/Dog-Volunteers.jpg" alt="Volunteers caring for rescued dogs" loading="lazy"/>
+      <img src="https://aklananimalrescue.com/wp-content/uploads/2020/02/65A9194_1920-1024x576.jpg" alt="Rescued cats looking for homes" loading="lazy"/>
+      <img src="https://cdn.shopify.com/s/files/1/0386/4113/9843/files/7_e6a328b3-7c1b-46c3-92bb-4dacb241b444_1024x1024.png?v=1697522032" alt="Kitten in shelter waiting for adoption" loading="lazy"/>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <h2>Join the Home Furever Family</h2>
+    <p>We welcome Nagpayong residents and supporters to:</p>
+    <ul style="list-style:none; font-size:1.3rem; margin:2rem 0;">
+      <li>✔ Visit our shelter to see the love and care we provide</li>
+      <li>✔ Meet our rescued furs and consider adoption</li>
+      <li>✔ Volunteer your time, donate supplies/medicines, or spread the word</li>
+      <li>✔ Help promote second chances through local awareness</li>
+    </ul>
+    <p><strong>Contact us:</strong> [Add your Facebook/Instagram/email/phone here — e.g. homefurever.nagpayong@gmail.com | +63 9XX XXX XXXX]</p>
+    <a href="https://www.facebook.com" target="_blank" class="btn" style="background:white; color:var(--primary);">Message Us on Facebook</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Home Furever – Nagpayong Community Stray Animal Protection Initiative</p>
+    <p>Every stray deserves a Home FurEver. 💚🐾</p>
+  </footer>
+
+</body>
+</html>
